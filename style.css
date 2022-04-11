@@ -208,7 +208,7 @@ header {
 
 /* about */
 .heading {
-  font-size: 5rem;
+  font-size: 3rem;
   text-transform: uppercase;
   color: var(--heading-color);
   text-align: center;
@@ -358,11 +358,11 @@ header {
 .project-box {
   padding: 10px;
   background: var(--box-color);
-  border-radius: 00.4rem;
+  border-radius: 0.4rem;
   text-align: center;
 }
 .project-box h2 {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 .project-box i {
   font-size: 2rem;
@@ -414,10 +414,10 @@ header {
   font-size: 0.84rem;
   margin: 0.5rem 0 0.7rem;
 }
-.review-box img {
+.review-box i {
   width: 80px;
   height: 80px;
-  border: 2px solid var(--main-color);
+  color: #fff;
   border-radius: 50%;
   padding: 4px;
   display: flex;
@@ -605,7 +605,7 @@ header {
     margin-bottom: 1.3rem;
   }
   .projects-content {
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(2, 1fr);
   }
   .portfolio-overlay h2 {
     font-size: 1rem;
@@ -645,6 +645,9 @@ header {
   .portfolio-content,
   .projects-content {
     grid-template-columns: 1fr;
+  }
+  .project-box {
+    padding-top: 45px;
   }
   .contact-form input,
   .contact-form textarea {
